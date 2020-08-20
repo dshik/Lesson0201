@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		F9720BF224E832DB00D39C95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9720BF124E832DB00D39C95 /* AppDelegate.swift */; };
 		F9720BF424E832DB00D39C95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9720BF324E832DB00D39C95 /* SceneDelegate.swift */; };
-		F9720BF624E832DB00D39C95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9720BF524E832DB00D39C95 /* ViewController.swift */; };
 		F9720BF924E832DB00D39C95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9720BF724E832DB00D39C95 /* Main.storyboard */; };
 		F9720BFB24E832E600D39C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9720BFA24E832E600D39C95 /* Assets.xcassets */; };
 		F9720BFE24E832E600D39C95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9720BFC24E832E600D39C95 /* LaunchScreen.storyboard */; };
+		F9720C0824E91B9E00D39C95 /* LoginFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9720C0724E91B9E00D39C95 /* LoginFormController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F9720BEE24E832DB00D39C95 /* Lesson0201.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson0201.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9720BF124E832DB00D39C95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9720BF324E832DB00D39C95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F9720BF524E832DB00D39C95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9720BF824E832DB00D39C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9720BFA24E832E600D39C95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9720BFD24E832E600D39C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9720BFF24E832E600D39C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9720C0724E91B9E00D39C95 /* LoginFormController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				F9720BF124E832DB00D39C95 /* AppDelegate.swift */,
 				F9720BF324E832DB00D39C95 /* SceneDelegate.swift */,
-				F9720BF524E832DB00D39C95 /* ViewController.swift */,
+				F9720C0724E91B9E00D39C95 /* LoginFormController.swift */,
 				F9720BF724E832DB00D39C95 /* Main.storyboard */,
 				F9720BFA24E832E600D39C95 /* Assets.xcassets */,
 				F9720BFC24E832E600D39C95 /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9720BF624E832DB00D39C95 /* ViewController.swift in Sources */,
+				F9720C0824E91B9E00D39C95 /* LoginFormController.swift in Sources */,
 				F9720BF224E832DB00D39C95 /* AppDelegate.swift in Sources */,
 				F9720BF424E832DB00D39C95 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,12 +287,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5B6NGX982;
 				INFOPLIST_FILE = Lesson0201/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.mitra-soft-123.Lesson0201";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Lesson0201;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,12 +306,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5B6NGX982;
 				INFOPLIST_FILE = Lesson0201/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.mitra-soft-123.Lesson0201";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Lesson0201;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
